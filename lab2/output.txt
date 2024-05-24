@@ -1,0 +1,26 @@
+1. keyword int
+2. keyword main
+3. Left Parenthesis
+4. Right Parenthesis
+5. Second Bracket Open
+6. keyword int
+7. Identifier detected
+8. Assignment operator
+9. Integer detected
+10. Semicolon detected
+11. keyword float
+12. Identifier detected
+13. Assignment operator
+14. Float detected
+15. Semicolon detected
+16. keyword char
+17. Identifier detected
+18. Assignment operator
+19. Identifier detected
+20. Plus Operator Found
+21. Identifier detected
+22. Semicolon detected
+23. keyword return
+24. Integer detected
+25. Semicolon detected
+26. Second Bracket Close

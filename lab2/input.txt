@@ -1,0 +1,7 @@
+int main()
+{
+    int a = 10;
+    float b = 50.5;
+    char c = a + b;
+    return 0;
+}
