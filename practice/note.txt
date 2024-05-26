@@ -1,0 +1,4 @@
+first create a syntax analyzer with the name syntaxanalyzer.yyerror
+then run the command bison -d syntaxanalyzer.y
+it will create two files named syntaxanalyzer.tab.h and syntaxanalyzer.tab.c, this syntaxanalyzer.tab.h file is included inside the lexical analyzer file
+then run other commands. But you can't include the bison in the makefile as you need to run it before the makefile because syntaxanalyzer.tab.h must be included inside the lex file

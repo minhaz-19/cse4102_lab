@@ -1,6 +1,4 @@
-execute:
-		gcc -E code.c > preprocess.i
-		gcc -S -masm=intel preprocess.i
-		as -o code.o preprocess.s
-		objdump -M intel -d code.o > code.dump 
-		gcc -o code code.o
+total:
+	flex lexicalanalyzer.l
+	gcc syntaxanalyzer.tab.c lex.yy.c 
+	./a < input.txt > output.txt
