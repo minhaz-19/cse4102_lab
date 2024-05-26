@@ -1,26 +1,26 @@
-1. keyword int
-2. keyword main
-3. Left Parenthesis
-4. Right Parenthesis
-5. Second Bracket Open
-6. keyword int
-7. Identifier detected
-8. Assignment operator
-9. Integer detected
-10. Semicolon detected
-11. keyword float
-12. Identifier detected
-13. Assignment operator
-14. Float detected
-15. Semicolon detected
-16. keyword char
-17. Identifier detected
-18. Assignment operator
-19. Identifier detected
-20. Plus Operator Found
-21. Identifier detected
-22. Semicolon detected
-23. keyword return
-24. Integer detected
-25. Semicolon detected
-26. Second Bracket Close
+0.INT
+1.MAIN
+2.open parenthesis
+3.close parenthesis
+4.open second bracket
+5.INT
+6.Identifier found
+7.assignment
+8.integer value
+9.semicolone
+10.FLAOT
+11.Identifier found
+12.assignment
+13.float value
+14.semicolone
+15.CHAR
+16.Identifier found
+17.assignment
+18.Identifier found
+19.plus
+20.Identifier found
+21.semicolone
+22.RETURN
+23.integer value
+24.semicolone
+25.close second bracket

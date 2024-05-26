@@ -7,7 +7,7 @@
 
 %%
 
-[ \n\t]
+[ \n\t]{}
 (int) {return INT;}
 (double) {return DOUBLE;}
 (float) {return FLOAT;}

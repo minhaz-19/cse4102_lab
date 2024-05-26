@@ -1,8 +1,6 @@
-all:
-first: hello.c
-	gcc -E hello hello.c 
-
 lexical:
+	bison -d first.y
 	flex first.l
-	gcc lex.yy.c
-	a <input.txt >output.txt
+	gcc first.tab.c lex.yy.c
+	a  < input.txt  > output.txt
+
